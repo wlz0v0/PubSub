@@ -16,7 +16,7 @@ import java.util.concurrent.Executors;
  * <p>
  * 消息队列管理器，用于向Publisher和Subscriber反馈
  * 消息队列服务器的端口号，以及管理{@link Buffer}。<br>
- * 在运行任何一个Publisher或Subscriber前必须先启动管理器{@link BufferManager#launch()}！
+ * 在运行任何一个{@link Publisher}或{@link Subscriber}前必须先启动管理器{@link BufferManager#launch()}！
  * </p>
  *
  * @author 武连增

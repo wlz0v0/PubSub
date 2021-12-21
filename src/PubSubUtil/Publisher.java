@@ -11,7 +11,7 @@ import java.net.Socket;
  * 用于向话题发布消息的Publisher，每个话题有自己的消息队列{@link Buffer}，
  * 当消息队列已满时发布消息会阻塞直到消息队列不为满。<br>
  * 请注意：<br>
- * 1.同一个话题的Publisher和Subscriber的消息类型必须一致；<br>
+ * 1.同一个话题的Publisher和{@link Subscriber}的消息类型必须一致；<br>
  * 2.运行Publisher前必须运行Core程序{@link BufferManager#launch()}。
  * </p>
  *

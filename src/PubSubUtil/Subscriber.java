@@ -11,7 +11,7 @@ import java.net.Socket;
  * 用于从话题接收消息的Subscriber，每个话题有自己的消息队列{@link Buffer}，
  * 当消息队列为空时接收消息会阻塞直到消息队列不为空。<br>
  * 请注意：<br>
- * 1.同一个话题的Publisher和Subscriber的消息类型必须一致；<br>
+ * 1.同一个话题的{@link Publisher}和Subscriber的消息类型必须一致；<br>
  * 2.运行Subscriber前必须运行Core程序{@link BufferManager#launch()}。
  * </p>
  *
